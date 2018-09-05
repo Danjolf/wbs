@@ -1,0 +1,247 @@
+body {
+	font-family: sans-serif;
+	background-color: #e4e9ed;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#color_line {
+	height: 5px;
+	background-color: gray;
+}
+
+.menu_list {
+	background-color: black;
+	display: flex;
+	height: 100px;
+}
+
+.logo_container {
+	background-image: url(images/bo_g.png);
+	background-repeat: no-repeat;
+	background-size: 130px;
+	width: 190px;
+	height: 110px;
+	margin-top: 18px; 
+	margin-left: 18px;
+}
+
+.menu_links {
+	color: white;
+	text-decoration: none;
+	margin-left: 15px;
+	font-family: Akrobat;
+	transition: 0.1s;
+	display: inline-block;
+	margin-top: 39px;
+	outline: none;
+}
+
+#orange_color:hover {
+	color: #ff9000;
+	transition: 0.2s;
+}
+
+#purple_color:hover {
+	color: #8400ff;
+	transition: 0.2s;
+}
+
+#red_color:hover {
+	color: #f10000;
+	transition: 0.2s;
+}
+
+#green_color:hover {
+	color: #00ff36;
+	transition: 0.2s;
+}
+
+.landing {
+	margin: auto;
+	margin-top: 105px;
+	width: 1018px;
+	font-family: Bebas Neue;
+	color: white;
+}
+
+#container_1 {
+	height: 560px;
+	background-color: white;
+	background-image: url(for_landing/collage.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1018px rgba(0,0,0, 0.6);
+	overflow: hidden;
+	text-align: center;
+}
+
+.ts_icon_wrapper {
+	width: 100%;
+	background-color: rgba(255,255,255, 0.3);
+	margin: auto;
+	margin-top: 205px;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none; 
+}
+
+.landing_logo_txt {
+	font-size: 57px;
+	font-weight: bold;
+	display: block;
+}
+
+#pur_color {
+	color: #8400ff;
+	text-shadow: -4px 0 0 white;
+	transition: 0.2s;
+}
+
+#pur_color:hover {
+	color: white;
+	text-shadow: -4px 0 0 #8400ff;
+}
+
+#ora_color {
+	color: #ff9000;
+	text-shadow: -4px 0 0 #f10000;
+	margin-top: -35px;
+	transition: 0.2s;
+}
+
+#ora_color:hover {
+	color: #f10000;
+	text-shadow: -4px 0 0 #ff9000;
+	margin-top: -35px;
+}
+
+#gre_color {
+	color: #00ff36;
+	text-shadow: -4px 0 0 #c4008a;
+	margin-top: -35px;
+	transition: 0.2s;
+}
+
+#gre_color:hover {
+	color: #c4008a;
+	text-shadow: -4px 0 0 #00ff36;
+	margin-top: -35px;
+}
+
+#container_2 {
+	height: 560px;
+	background-image: url(for_landing/AppleStore.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.gradient_layer {
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(0,0,0, 0.7) 45%, rgba(183,0,255, 0.7));
+	display: flex;
+}
+
+.info_block {
+	margin: auto;
+	color: white;
+	font-size: 25px;
+	font-weight: ;
+	text-align: center;
+}
+
+.icons_wrapper {
+	background-color: rgba(255,255,255, 0.9);
+	border-radius: 50%;
+	height: 160px;
+	width: 160px;
+	background-position: center;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#icon_1 {
+	background-image: url(for_landing/259561.png);
+	background-repeat: no-repeat;
+	background-size: 120px;
+}
+
+#icon_2 {
+	background-image: url(for_landing/documents.png);
+	background-repeat: no-repeat;
+	background-size: 110px;
+}
+
+#icon_3 {
+	background-image: url(for_landing/129601.png);
+	background-repeat: no-repeat;
+	background-size: 110px;
+}
+
+#container_3 {
+	height: 560px;
+	background-color: white;
+	background-image: url(for_landing/iphones.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1018px rgba(0,0,0, 0.6);
+}
+
+#top_txt {
+	margin-left: 40px;
+	margin-top: 30px;
+	font-size: 40px;
+	display: inline-block;
+}
+
+#middle_txt_container {
+	width: 100%;
+	background-color: rgba(0,0,0, 0.5);
+	margin-top: 145px;
+	text-align: center;
+}
+
+#middle_txt {
+	font-size: 40px; 
+}
+
+#container_4 {
+	height: 560px;
+	background-color: white;
+	background-image: url(for_landing/macbooks.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1018px rgba(0,0,0, 0.4);
+	display: flex;
+	justify-content: center;
+}
+
+#check_stock {
+	border: solid;
+	border-width: 3px;
+	border-radius: 40px;
+	height: 100px;
+	width: 400px;
+	background: none;
+	color: white;
+	font-size: 27px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Bebas Neue;
+	transition: 0.2s;
+	cursor: pointer;
+	margin-top: 235px;
+	outline: none;
+}
+
+#check_stock:hover {
+	color: lightgreen;
+	transition: 0.2s;
+} 
